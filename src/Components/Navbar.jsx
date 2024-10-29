@@ -119,9 +119,9 @@ export default function Navbar() {
   return (
     <nav className="bg-white py-4 shadow-sm fixed w-full top-0 z-50">
 
-      <div className="container  mx-auto flex items-center justify-center ">
+      <div className="container justify-around  mx-auto flex items-center  ">
         {/* Logo Section */}
-        <Link to="/" className="flex items-center gap-3">
+        <Link to="/" className="flex  gap-3">
           <img src={cake} alt="" className="h-8 w-8" />
           <span className="text-2xl font-fntprimary">Cake'es</span>
         </Link>
@@ -135,7 +135,7 @@ export default function Navbar() {
         </div>
 
         {/* Icons */}
-        <div className="flex items-start gap-2">
+        <div className="flex justify-end items-end gap-2  ">
           {/* <button className="p-2 hover:bg-pink-50 rounded-full transition-colors">
             <User className="h-5 w-5 text-gray-600 hover:text-pink-500" />
           </button> */}
@@ -157,7 +157,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white w-full py-4 shadow-md">
+        <div className="md:hidden bg-white w-full py-4 shadow-md justify-center">
           <div className="flex flex-col items-center gap-4 font-fntprimary text-xl">
             <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-pink-500 transition-colors">Menu</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-pink-500 transition-colors">About</Link>
