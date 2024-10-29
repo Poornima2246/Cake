@@ -66,8 +66,8 @@ export default function Hero() {
       
       <div className="container relative flex flex-col md:flex-row items-center justify-between gap-12 bg-back top-5 lg:top-0">
         <div className="max-w-lg text-center md:text-left">
-          <h1 className=" md:-mt-52 text-4xl md:text-5xl font-script  text-white mb-4">Indulge in Sweet Elegance</h1>
-          <p className="text-balck text-normal mb-8">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-</p>
+          <h1 className=" md:-mt-72 text-4xl md:text-5xl font-script  text-white  mb-2 ">Indulge in <span className='font-fntprimary text-primary'>Sweet Elegance</span> </h1>
+          <p className="text-balck text-normal mb-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-</p>
           <button className="bg-white text-pink-500 px-8 py-3 rounded-full font-medium hover:bg-pink-50 transition-colors">
             Order Now
           </button>
