@@ -119,7 +119,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white py-4 shadow-sm fixed w-full top-0 z-50">
 
-      <div className="container  mx-auto flex items-center justify-evenly ">
+      <div className="container  mx-auto flex items-center justify-center ">
         {/* Logo Section */}
         <Link to="/" className="flex items-center gap-3">
           <img src={cake} alt="" className="h-8 w-8" />

@@ -31,9 +31,9 @@ function App() {
         element={
           <>
             <Home /> 
-            <Products/>
+            {/* <Products/>
             <About/>
-            <Contact/>
+            <Contact/> */}
            
           </>
         } 
