@@ -32,7 +32,7 @@ function App() {
           <>
             <Home /> 
             <Products/>
-            <About/>
+            {/* <About/> */}
             {/* <Contact/> */}
            
           </>
