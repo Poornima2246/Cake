@@ -10,11 +10,11 @@ export default function About() {
               We believe that every cake should be as unique as the celebration it represents. Our team of expert bakers and cake artists work closely with you to bring your cake vision to life. Using the freshest ingredients and innovative techniques, we craft cakes that not only taste delicious but look stunning as well.
             </p>
           </div>
-          <div className=" w-[500px] h-[400px] flex items-center justify-center">
+          <div className="  w-[500px] h-[500px] flex items-center justify-center">
             <img 
               src= {cck}
               alt="Delicious cheesecake" 
-              className=" "
+              className="w-[400px] md:w-full flex justify-center items-center ml-8 md:ml-0"
             />
           </div>
         </div>
