@@ -23,7 +23,7 @@ import Contact from "./Components/Contact.jsx";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/Cake">
     <Nav /> 
     <Routes>
       <Route 
