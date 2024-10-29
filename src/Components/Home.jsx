@@ -64,7 +64,7 @@ export default function Hero() {
     <div className="relative bg-backimg bg-cover  h-screen flex items-center overflow-hidden">
     
       
-      <div className="container relative flex flex-col md:flex-row items-center justify-between gap-12 bg-back top-20 lg:top-0">
+      <div className="container relative flex flex-col md:flex-row items-center justify-between gap-12 bg-back top-10 lg:top-0">
         <div className="max-w-lg text-center md:text-left">
           <h1 className=" md:-mt-52 text-4xl md:text-5xl font-script  text-white mb-4">Indulge in Sweet Elegance</h1>
           <p className="text-balck text-normal mb-8">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-</p>
