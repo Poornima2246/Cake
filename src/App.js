@@ -32,8 +32,8 @@ function App() {
           <>
             <Home /> 
             <Products/>
-            {/* <About/> */}
-            {/* <Contact/> */}
+            <About/>
+            <Contact/>
            
           </>
         } 
