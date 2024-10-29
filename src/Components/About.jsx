@@ -3,7 +3,7 @@ import cck from '../Asset/cck.png'
 export default function About() {
     return (
       <section className=" ">
-        <div className= "  container mx-auto   flex flex-col md:flex-row items-center justify-between  gap-4">
+        <div className= " bg-black container mx-auto   flex flex-col md:flex-row items-center justify-between  gap-4">
           <div className="max-w-sm   lg:max-w-2xl   ">
             <h2 className="text-4xl font-fntsecondary text-pink-500 mb-6  ">About Us</h2>
             <p className="text-gray-700 leading-relaxed  ">
