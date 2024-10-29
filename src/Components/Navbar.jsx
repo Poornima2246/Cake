@@ -118,7 +118,8 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white py-4 shadow-sm fixed w-full top-0 z-50">
-      <div className="container mx-auto flex items-center justify-between">
+
+      <div className="container  mx-auto flex items-center justify-evenly">
         {/* Logo Section */}
         <Link to="/" className="flex items-center gap-3">
           <img src={cake} alt="" className="h-8 w-8" />
@@ -134,7 +135,7 @@ export default function Navbar() {
         </div>
 
         {/* Icons */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-start gap-2">
           <button className="p-2 hover:bg-pink-50 rounded-full transition-colors">
             <User className="h-5 w-5 text-gray-600 hover:text-pink-500" />
           </button>
