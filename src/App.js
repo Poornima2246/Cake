@@ -44,7 +44,7 @@ function App() {
       <Route path="/NavCollection" element={<NavCollection />} />
       <Route path="/Contact" element={<Contact />} /> */}
 
-   <Route path="/Cakepro" element={<Cakepro />} />
+   <Route path="/Menu" element={<Cakepro />} />
     </Routes>
 
     {/* <Footer /> */}
