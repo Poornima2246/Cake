@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/Cake/static/css/main.8c065f3e.css",
-    "main.js": "/Cake/static/js/main.58f6e446.js",
+    "main.css": "/Cake/static/css/main.acd878f6.css",
+    "main.js": "/Cake/static/js/main.02a8af62.js",
     "static/js/453.d8846cae.chunk.js": "/Cake/static/js/453.d8846cae.chunk.js",
     "static/media/h6.png": "/Cake/static/media/h6.4fa327d03c7fe2da6935.png",
     "static/media/cake.png": "/Cake/static/media/cake.9aed6a27b3369af20cac.png",
     "static/media/cck.png": "/Cake/static/media/cck.f36469162c4b8f3adb4d.png",
+    "static/media/img1.png": "/Cake/static/media/img1.710aba432c19c6f25938.png",
+    "static/media/img3.png": "/Cake/static/media/img3.2455206dfe8a25a6949b.png",
+    "static/media/img2.png": "/Cake/static/media/img2.8385ed512e42791a8045.png",
+    "static/media/img4.png": "/Cake/static/media/img4.dc862491e83209e8e261.png",
+    "static/media/img5.png": "/Cake/static/media/img5.506010f5e3337945593c.png",
+    "static/media/img6.png": "/Cake/static/media/img6.0f292c90ce3d14bff0e0.png",
     "static/media/f4.png": "/Cake/static/media/f4.87fa1f4a00478c70fe89.png",
     "static/media/f1.png": "/Cake/static/media/f1.0cc958393227220d8803.png",
     "static/media/f2.png": "/Cake/static/media/f2.e4f5079b986a7afabb8b.png",
     "static/media/f3.png": "/Cake/static/media/f3.dfbc0a70019f83a907fe.png",
     "index.html": "/Cake/index.html",
-    "main.8c065f3e.css.map": "/Cake/static/css/main.8c065f3e.css.map",
-    "main.58f6e446.js.map": "/Cake/static/js/main.58f6e446.js.map",
+    "main.acd878f6.css.map": "/Cake/static/css/main.acd878f6.css.map",
+    "main.02a8af62.js.map": "/Cake/static/js/main.02a8af62.js.map",
     "453.d8846cae.chunk.js.map": "/Cake/static/js/453.d8846cae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c065f3e.css",
-    "static/js/main.58f6e446.js"
+    "static/css/main.acd878f6.css",
+    "static/js/main.02a8af62.js"
   ]
 }
