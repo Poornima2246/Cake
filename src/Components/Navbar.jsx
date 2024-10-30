@@ -128,7 +128,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 font-fntprimary text-xl">
-          <Link to="/" className="hover:text-pink-500 transition-colors">Menu</Link>
+          <Link to="/Cakepro" className="hover:text-pink-500 transition-colors">Menu</Link>
           <Link to="/about" className="hover:text-pink-500 transition-colors">About</Link>
           <Link to="/contact" className="hover:text-pink-500 transition-colors">Contact</Link>
           <Link to="/login" className="hover:text-pink-500 transition-colors">Login</Link>
@@ -159,7 +159,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden bg-white w-full py-4 shadow-md justify-center">
           <div className="flex flex-col items-center gap-4 font-fntprimary text-xl">
-            <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-pink-500 transition-colors">Menu</Link>
+            <Link to="/Cakepro" onClick={() => setMenuOpen(false)} className="hover:text-pink-500 transition-colors">Menu</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-pink-500 transition-colors">About</Link>
             <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-pink-500 transition-colors">Contact</Link>
             <Link to="/login" onClick={() => setMenuOpen(false)} className="hover:text-pink-500 transition-colors">Login</Link>

@@ -20,6 +20,7 @@ import Home from "./Components/Home.jsx";
 import Products from "./Components/Product.jsx";
 import About from "./Components/About.jsx";
 import Contact from "./Components/Contact.jsx";
+import Cakepro from "./Components/Cakepro.jsx";
 
 function App() {
   return (
@@ -36,12 +37,16 @@ function App() {
             <Contact/>
            
           </>
+         
         } 
       />
       {/* <Route path="/product/:id" element={<Product collections={data} />} />
       <Route path="/NavCollection" element={<NavCollection />} />
       <Route path="/Contact" element={<Contact />} /> */}
+
+   <Route path="/Cakepro" element={<Cakepro />} />
     </Routes>
+
     {/* <Footer /> */}
   </BrowserRouter>
   );
