@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 function Url() {
-     const url = "https://cake-hz6x.onrender.com"
+     const url = "http://localhost:4000"
    const [formData, setFormData] = useState({
     image:"",
     name: '',
