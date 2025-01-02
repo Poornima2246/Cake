@@ -249,7 +249,7 @@ const handelHome=(e)=>{
               onClick={() => setMenuOpen(false)}
               className="hover:text-pink-500 transition-colors"
             >
-              Login
+              Admin
             </Link>
           </div>
         </div>
