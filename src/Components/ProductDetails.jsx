@@ -18,7 +18,7 @@ function ProductDetails() {
     const fetchProduct = async () => {
       try {
         // Fetch product details by ID
-        const response = await axios.get(`http://localhost:4000/api/dessert/${id}`);
+        const response = await axios.get(`https://cake-server-7c9k.onrender.com/api/dessert/${id}`);
         
         // If the product data is valid, set it in state
         if (response.data) {
@@ -59,7 +59,7 @@ function ProductDetails() {
             initial = {{x:-100 , opcacity: 0}}
             animate = {{x:0 , opcacity:1}}
             transition  = {{duration:1}}
-            src={`http://localhost:4000/upload/${mainImage}`}
+            src={`https://cake-server-7c9k.onrender.com/upload/${mainImage}`}
             alt={product.name || "Product"}
             className="w-full h-full  lg:w-8/12 lg:h-8/12 mx-auto object-cover rounded-xl shadow-md"
             onError={(e) => { e.target.src = "/placeholder-image.png"; }} // Fallback if the image doesn't load
@@ -77,7 +77,7 @@ function ProductDetails() {
           <div className="flex gap-4 mt-4">
             {product.addImage1 && (
               <img
-                src={`http://localhost:4000/upload/${product.addImage1}`}
+                src={`https://cake-server-7c9k.onrender.com/upload/${product.addImage1}`}
                 alt="Additional view 1"
                 className="w-20 h-20 object-cover rounded shadow-md cursor-pointer"
                 onClick={() => setMainImage(product.addImage1)}
@@ -86,7 +86,7 @@ function ProductDetails() {
             )}
             {product.addImage2 && (
               <img
-                src={`http://localhost:4000/upload/${product.addImage2}`}
+                src={`https://cake-server-7c9k.onrender.com/upload/${product.addImage2}`}
                 alt="Additional view 2"
                 className="w-20 h-20 object-cover rounded shadow-md cursor-pointer"
                  onClick={()=>setMainImage(product.addImage2)}

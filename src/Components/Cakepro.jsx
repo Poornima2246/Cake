@@ -14,7 +14,7 @@ function Cakepro() {
   useEffect(() => {
       const fetchData = async () => {
           try {
-              const response = await axios.get("http://localhost:4000/api/dessert/list");
+              const response = await axios.get("https://cake-server-7c9k.onrender.com/api/dessert/list");
               setCakes(response.data.data); // Ensure this matches API response
               setLoading(false);
           } catch (err) {
@@ -49,7 +49,7 @@ function Cakepro() {
             >
               <div className="aspect-w-16 aspect-h-10 overflow-hidden">
                 <img
-                  src={`http://localhost:4000/upload/${item.mainImage}`}
+                  src={`https://cake-server-7c9k.onrender.com/upload/${item.mainImage}`}
                   alt={item.head}
                   className="card-img hover:scale-110 transition-all duration-500"
                   loading="lazy"
