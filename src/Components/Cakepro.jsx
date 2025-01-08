@@ -79,5 +79,4 @@ function Cakepro() {
 }
 
 export default Cakepro;
-
  

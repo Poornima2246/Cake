@@ -51,7 +51,7 @@ function ProductDetails() {
   // Render product details
   return (
     <div className="product-details container mx-auto p-4 mt-16">
-        <Breadcrumbs />
+        {/* <Breadcrumbs /> */}
       <div className="flex flex-col md:flex-row gap-6">
         {/* Main Product Image */}
         <div className="flex-1 mt-10 ">
