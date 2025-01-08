@@ -80,3 +80,53 @@ function Cakepro() {
 
 export default Cakepro;
  
+
+
+//new file 
+
+// import React, { useEffect, useState } from "react";
+// import { useNavigate } from "react-router-dom";
+// import axios from "axios";
+
+// function Cakepro() {
+//   const [cakes, setCakes] = useState([]);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
+//   const navigate = useNavigate();
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await axios.get("https://cake-server-7c9k.onrender.com/api/dessert/list");
+//         setCakes(response.data.data);
+//         setLoading(false);
+//       } catch (err) {
+//         console.error("Error fetching cakes:", err);
+//         setError("Failed to fetch cakes. Please try again later.");
+//         setLoading(false);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   if (loading) return <p>Loading cakes...</p>;
+//   if (error) return <p>{error}</p>;
+
+//   return (
+//     <div>
+//       <h1>Our Creations</h1>
+//       <div>
+//         {cakes.map((item) => (
+//           <div key={item._id}>
+//             <img src={`https://cake-server-7c9k.onrender.com/upload/${item.mainImage}`} alt={item.name} />
+//             <h2>{item.name}</h2>
+//             <button onClick={() => navigate(`/product/${item._id}`)}>View Details</button>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Cakepro;
