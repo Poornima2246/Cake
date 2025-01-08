@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cake/static/css/main.e4bbcdef.css",
-    "main.js": "/Cake/static/js/main.077d44e2.js",
+    "main.css": "/Cake/static/css/main.411347e0.css",
+    "main.js": "/Cake/static/js/main.f7a17d85.js",
     "static/js/453.d8846cae.chunk.js": "/Cake/static/js/453.d8846cae.chunk.js",
     "static/media/h6.png": "/Cake/static/media/h6.4fa327d03c7fe2da6935.png",
     "static/media/cake.png": "/Cake/static/media/cake.9aed6a27b3369af20cac.png",
@@ -11,12 +11,12 @@
     "static/media/f2.png": "/Cake/static/media/f2.e4f5079b986a7afabb8b.png",
     "static/media/f3.png": "/Cake/static/media/f3.dfbc0a70019f83a907fe.png",
     "index.html": "/Cake/index.html",
-    "main.e4bbcdef.css.map": "/Cake/static/css/main.e4bbcdef.css.map",
-    "main.077d44e2.js.map": "/Cake/static/js/main.077d44e2.js.map",
+    "main.411347e0.css.map": "/Cake/static/css/main.411347e0.css.map",
+    "main.f7a17d85.js.map": "/Cake/static/js/main.f7a17d85.js.map",
     "453.d8846cae.chunk.js.map": "/Cake/static/js/453.d8846cae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4bbcdef.css",
-    "static/js/main.077d44e2.js"
+    "static/css/main.411347e0.css",
+    "static/js/main.f7a17d85.js"
   ]
 }
